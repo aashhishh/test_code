@@ -1,5 +1,9 @@
-print("Test Examples")
 
+print("First Problem")
+print("""Given an array of integers nums and an integer target, return indices of the two numbers such that
+they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same
+element twice.""")
 # Problem 1st solution
 def two_sum(nums, target):
     """
@@ -33,7 +37,14 @@ nums = [3, 3]
 target = 6
 print(two_sum(nums, target))  
 
+print("Second Problem")
 
+print("""Given a string s containing characters '(', ')', '{', '}', '[' and ']'
+determine if the string is valid
+An input string is valid if:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.""")
 #Problem 2nd Solution
 def is_valid(s):
     """
@@ -72,6 +83,10 @@ print(is_valid(s1))  # Output: True
 s2 = "(]"
 print(is_valid(s2))  # Output: False
 
+print("Third Problem")
+
+print("""Given an integer array nums and an integer k, return the k most frequent elements. You may return
+the answer in any order.""")
 
 #Problem 3rd solution
 def top_k_frequent(nums, k):
